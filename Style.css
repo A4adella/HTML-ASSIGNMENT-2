@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+    width: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+body{
+  background: #222;
+}
+  caption{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 70%;
+    border: #acd3bb;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    table {
+      font-size: 14px;
+      width: 768px;
+    }
+    
+    th, td {
+      padding: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    table {
+      font-size: 12px;
+      width: 480px;
+    }
+    
+    th, td {
+      padding: 2px;
+    }
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  th:hover, td:hover {
+    background-color: #7b5866;
+  }
+  
+  td {
+    border-top: 1px solid #fff;
+  }
+p tr{
+    background-color: #ddd;
+}
+a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: #fff;
+} 
+a:hover{
+  cursor: pointer;
+ color: red;
+  }   

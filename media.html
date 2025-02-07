@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Phenomenon Adella.</title>
+    <link rel="stylesheet" href="./Mediastyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Adella Emmanuel</h1>
+      <i>Fashion|Faith|Influencer</i>
+      <nav>
+        <ul>
+          <li><a href="#picture">PICTURE</a></li>
+          <li><a href="#Video">VIDEO</a></li>
+          <li><a href="#audio">AUDIO</a></li>
+          <li><a href="iframe">IFRAME</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Hello I'm Adella</h2>
+      <h3>Welcome to my little corner of the cyberspace</h3>
+      <div>About Me!</div>
+      <p class="aboutme">
+        Meet an adventurous explorer of knowledge, always hungry for learning
+        (and sometimes for baked snacks 🍪). A coding enthusiast on a journey
+        from Git newbie to Git guru, mastering flexbox layouts and crafting
+        beautiful designs. Curious about theology, tech, and the perfect
+        background for an HTML table, I navigate the digital world with
+        creativity and style. Whether pushing code to GitHub or styling a
+        navigation bar, I'm always up for a new challenge! 🚀
+      </p>
+      <div class="container">
+        <div class="box">
+          <div class="title">
+            <p>This is a portrait of me</p>
+          </div>
+          <picture id="picture">
+            <source
+              srcset="./Assets/IMG_20241103_090407_820.jpg"
+              media="(min-width: 200px;)"
+            />
+            <source
+              src="./Assets/IMG_20241103_090407_820.png"
+              media="(min-width: 400px;)"
+            />
+            <img
+              src="./Assets/IMG_20241103_090407_820.jpg"
+              alt="A cute picture of Adella"
+              width="400px"
+              height="500px"
+            />
+          </picture>
+          <p></p>
+        </div>
+        <div class="box">
+          <div class="title">
+            <p>
+              Did I mention I am a Social Media Influencer?<span
+                >...sike I'm just a girl who loves to express herself through the
+                media</span
+              >
+            </p>
+          </div>
+          <video
+            controls
+            id="Video"
+            preload="auto"
+            width="600px"
+            height="500px"
+          >
+            <source src="./Assets/2024-12-10-161121728.mp4" type="video/mp4" />
+            <source
+              src="./Assets/2024-12-10-161121728.webm"
+              type="video/webm"
+            />
+            <track
+              src="./Assets/Subtitles.vtt"
+              kind="subtitles"
+              srclang="en"
+              label="english"
+            />
+          </video>
+        </div>
+        <div class="box">
+          <div class="title">A song I like</div>
+          <audio
+            class="flex-item"
+            id="audio"
+            controls
+            autoplay
+            muted
+            preload="auto"
+            crossorigin="anonymous"
+          >
+            <source src="./Assets/2024-12-10-161121728.ogg" type="audio/ogg" />
+            <source src="./Assets/2024-12-10-161121728.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="box">
+          <span>
+            Friendly hack:Watch YouTube While Eating!
+            Why chew in silence when you can laugh at memes, binge
+            vlogs, or learn random facts with every bite? Watching a vlog?
+            Now your meal feels fancier. Watching a crime doc? Now your sandwich
+            is evidence. Food + YouTube =  peak experience . Try it, and
+            thank me later.
+            </span>
+          <iframe
+            class="flex-item"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/iGp-gIHIYpQ?si=FGf2Dciek_zrNN3M"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            id="iframe"
+          ></iframe>
+        </div> 
+      </div>
+    </main>
+    <div class="chin">Last one before you go
+      <img src="./Assets/Chin_Chin.webp" id="chin" alt="A bowl of chin chin" width="400px" height="400px">
+    A bowl of chin chin a day keeps the doctor away!
+  </div>
+    <footer>&copy;2025 Adella Emmanuel Idemetuk | All rights reserved. </footer>
+  </body>
+</html>
